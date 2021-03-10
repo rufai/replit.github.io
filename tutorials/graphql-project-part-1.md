@@ -379,7 +379,7 @@ query {
 
 However, this isn't very flexible, since it means that we'll need to create an entire new query each time we want get a specific number of episodes. Luckily, GraphQL lets us pass variables as part of the query. For example, if we have a look in our GraphiQL explorer, we can do the following (you might need to click on "QUERY VARIABLES" in the bottom-left corner to open it up):
 
-![](/images/tutorials/graphql-project/graphql-project-9.gif)
+![](/images/tutorials/graphql-project/graphql-project-9.png)
 
 You'll see that we can pass variables as a JSON object, and then within the query we can declare the expected variables in brackets (`( )`) right after the `query` command. The variable names should always start with a dollar sign (`$`). In our case, we can specify that we are expecting `$count`. However, because GraphQL is [strongly typed language](https://en.wikipedia.org/wiki/Strong_and_weak_typing) we are required to declare what type of data `$count` will be. In this case, it will be an `Int` value. We then pass the value of `$count` directly to `episodes(first: $count)`. To replicate this within our JavaScript, we can add variables to our body as follows:
 

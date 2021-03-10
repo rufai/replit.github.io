@@ -328,7 +328,7 @@ https://api-us-east-1.graphcms.com/v2/ckll20qnkffe101xr8m2a7m2h/master
 
 However, in the next code examples, we'll use `<<<YOUR ENDPOINT HERE>>>` to prevent you from accidentally using an example endpoint if you are following along. If you navigate straight to your endpoint within your browser, you will be presented with a GraphiQL Explorer that allows you to test and try out queries for your specific endpoint:
 
-![](/images/tutorials/graphql-project/graphql-project-8.gif)
+![](/images/tutorials/graphql-project/graphql-project-8.png)
 
 ### Custom GraphQL Function
 

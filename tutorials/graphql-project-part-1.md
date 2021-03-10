@@ -155,7 +155,7 @@ Let's take a look at what just happened. We'll clear the left-hand pane and recr
 
 We can start by adding `query { }`. This indicates to the endpoint that we want to retrieve data from the server.
 
-Place your cursor within the curly brackets and press the spacebar and enter keys at the same time. We should get a list of recommended queries (based on the structure of the data) as follows:
+Place your cursor within the curly brackets and press the spacebar and enter keys ( or control key and spacebar ) at the same time. We should get a list of recommended queries (based on the structure of the data) as follows:
 
 ![](/images/tutorials/graphql-project/graphql-project-4.png)
 

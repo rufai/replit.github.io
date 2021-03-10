@@ -318,6 +318,7 @@ _Note that GraphCMS allows you to create a new project completely from scratch, 
 Once your project has been created, you can select the _"Settings"_ tab at the bottom-left corner, and navigate to "API Access". Make sure to copy the endpoint URL (at the top of the page) and save it somewhere where you will be able to access it later. We'll be directing all our GraphQL queries to this URL, so it is useful to have it at hand.
 
 ![](/images/tutorials/graphql-project/graphql-project-7.gif)
+![](/images/tutorials/graphql-project/graphql-project-7-a.png)
 
 Note that your API endpoint should look something like the following: 
 
